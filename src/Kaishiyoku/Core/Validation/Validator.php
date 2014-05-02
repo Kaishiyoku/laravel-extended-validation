@@ -46,7 +46,7 @@ class Validator extends BaseValidator {
 		$date_from = $value;
 		$date_till = \Input::get($parameters[0]);
 
-		if (!empty($date_till) && $date_from <= $date_till)
+		if (empty($date_till) || $date_from <= $date_till)
 		{
 			return true;
 		}
