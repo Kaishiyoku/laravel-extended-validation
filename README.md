@@ -9,6 +9,20 @@ And select version ```0.*```
 ## Add support in Laravel
 Add ```Kaishiyoku\Core\Validation\ValidationServiceProvider``` in **app/config/app.php**.
 
+## Add localization
+Add the following lines to your validation.php localization file:
+
+**English**:
+```
+array_required: ':attribute is mandatory'
+date_before: ':attribute must be before :date_till_attribute'
+```
+**German:**:
+```
+array_required: ':attribute ist ein Pflichtfeld'
+date_before: ':attribute muss vor :date_till_attribute liegen'
+```
+
 ## How to use
 Here is a list of included validation rules in addition to the default Laravel validation rules:
 
@@ -17,7 +31,7 @@ Here is a list of included validation rules in addition to the default Laravel v
 - **date_before:*field_name***  
   The field under validation must be before the date given as an input name *field_name*.
 
-## Examples
+### Examples
 ```
 $rules = array(
 	'players' => 'array_required',
