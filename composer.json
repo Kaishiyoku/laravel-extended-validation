@@ -1,5 +1,5 @@
 {
-    "name": "kaishiyoku/extended-validator",
+    "name": "kaishiyoku/extended-validation",
     "description": "Additional validation rules for Laravel",
     "license": "MIT",
     "authors": [
