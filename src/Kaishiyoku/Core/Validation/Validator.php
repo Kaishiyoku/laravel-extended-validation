@@ -43,8 +43,8 @@ class Validator extends BaseValidator {
 	 */
 	public function validateDateBefore($attribute, $value, $parameters)
 	{
-		$date_from = $value;
-		$date_till = \Input::get($parameters[0]);
+		$date_from = strtotime($value);
+		$date_till = strtotime(\Input::get($parameters[0]));
 
 		if (empty($date_till) || $date_from <= $date_till)
 		{
