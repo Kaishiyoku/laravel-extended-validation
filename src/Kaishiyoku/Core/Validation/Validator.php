@@ -1,4 +1,4 @@
-<?php namespace Zero\Validation;
+<?php namespace Kaishiyoku\Core\Validation;
 
 use Illuminate\Validation\Validator as BaseValidator;
 

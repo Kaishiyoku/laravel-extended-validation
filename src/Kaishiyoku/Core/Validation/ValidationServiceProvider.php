@@ -1,7 +1,7 @@
-<?php namespace Zero\Validation;
+<?php namespace Kaishiyoku\Core\Validation;
  
 use Illuminate\Support\ServiceProvider;
-use Zero\Validation\Validator;
+use Kaishiyoku\Core\Validation\Validator;
 
 class ValidationServiceProvider extends ServiceProvider {
 
