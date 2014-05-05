@@ -38,3 +38,5 @@ $rules = array(
 	'vacation_date_from' => 'date_before:vacation_date_till'
 );
 ```
+
+If you have any issues feel free to open a ticket :)
