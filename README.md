@@ -14,13 +14,15 @@ Add the following lines to your validation.php localization file:
 
 **English**:
 ```
-array_required: ':attribute is mandatory'
-date_before: ':attribute must be before :date_till_attribute'
+'array_required' => ':attribute is mandatory',
+'date_before' => ':attribute must be before :date_till_attribute',
+'image_dimensions_max' => ':attribute may be only :widthx:height pixels big',
 ```
 **German:**:
 ```
-array_required: ':attribute ist ein Pflichtfeld'
-date_before: ':attribute muss vor :date_till_attribute liegen'
+'array_required' => ':attribute ist ein Pflichtfeld',
+'date_before' => ':attribute muss vor :date_till_attribute liegen',
+'image_dimensions_max' => ':attribute darf maximal :widthx:height Pixel groß sein',
 ```
 
 ## How to use
@@ -30,6 +32,8 @@ Here is a list of included validation rules in addition to the default Laravel v
   The field under validation must be an array which is not empty.
 - **date_before:*field_name***  
   The field under validation must be before the date given as an input name *field_name*.
+- **image_dimensions_max:*width**[,height]***
+  The field's image dimensions under validation may not be greater than the given parameters. If no maximum height is given the maximum height is equal the maximum width.
 
 ### Examples
 ```
