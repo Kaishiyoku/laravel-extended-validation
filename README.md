@@ -1,4 +1,4 @@
-# Additional Validation Rules for Laravel 4.0.x
+# Additional Validation Rules for Laravel 5.0.x
 
 ## Installing
 Add ```"kaishiyoku/extended-validation": "*"``` to your **composer.json**
