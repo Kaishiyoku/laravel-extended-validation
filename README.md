@@ -26,9 +26,9 @@ Add the following lines to your ```validation.php``` localization file:
 ## How to use
 Here is a list of included validation rules in addition to the default Laravel validation rules:
 
-- **array_required**  
+- array_required  
   The field under validation must be an array which is not empty.
-- **image_dimensions_max:*width**[,height]***
+- image_dimensions_max:*width[,height]*  
   The field's image dimensions under validation may not be greater than the given parameters. If no maximum height is given the maximum height is equal the maximum width.
 
 ### Examples
