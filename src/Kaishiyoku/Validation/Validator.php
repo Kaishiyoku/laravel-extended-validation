@@ -1,8 +1,8 @@
 <?php namespace Kaishiyoku\Validation;
 
-use Illuminate\Validation\Validator;
+use Illuminate\Validation\Validator as BaseValidator;
 
-class ExtendedValidator extends Validator {
+class Validator extends BaseValidator {
 
 	/**
 	 * Implicit Attributes

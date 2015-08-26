@@ -2,7 +2,7 @@
  
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\Validator;
-use Kaishiyoku\Validation\ExtendedValidator;
+use Kaishiyoku\Validation\Validator as ExtendedValidator;
 
 class ValidationServiceProvider extends ServiceProvider {
 
