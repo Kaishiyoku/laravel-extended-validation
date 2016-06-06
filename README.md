@@ -40,3 +40,8 @@ $rules = array(
 ```
 
 If you have any issues feel free to open a ticket :)
+
+Author
+======
+Twitter: [@kaishiyoku](https://twitter.com/kaishiyoku)  
+Website: www.andreas-wiedel.de
