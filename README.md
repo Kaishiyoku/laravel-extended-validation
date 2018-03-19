@@ -1,3 +1,5 @@
+![Packagist](https://img.shields.io/packagist/v/kaishiyoku/extended-validation.svg) ![Packagist](https://img.shields.io/packagist/dt/kaishiyoku/extended-validation.svg)
+
 # Additional Validation Rules for Laravel 5.0.x/5.1.x
 
 ## Installing
